@@ -1,0 +1,127 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(images/green_dust_scratch/green_dust_scratch.png);
+    overflow-x: auto;
+    background-size: cover;
+}
+
+.parent-row {
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.about-style {
+    max-width: 960px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.container-border {
+    border: 2px solid #dddddd;
+}
+
+h2 {
+    background-color: #4aaaa5;
+    padding-left: 15px;
+    margin-bottom: 0;
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.profile-pic {
+    width: 25%;
+    margin-right: 15px;
+}
+
+.h2style {
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+.h-3 {
+    color: #4aaaa5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 3px solid #dddddd;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #777777;
+    text-indent: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+img {
+    width: 90%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+h4 {
+    position: absolute;
+    top: 65%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 90%;
+    padding: 15px
+}
+
+.form-style {
+    border: 2px solid #dddddd;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+.form-align {
+    padding: 0px;
+}
+
+.text-font {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.filler {
+    background-color: #4aaaa5;
+}
+
+.button-style {
+    background-color: #4aaaa5;
+    border: #777777
+}
+
+/* .navbar-color {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding: 0;
+} */
+.center {
+    text-align: center;
+    color: #ffffff;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    padding-top: 20px;
+    
+}
+
+.copy-right {
+    padding-top: 20px;
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
+    
+}
