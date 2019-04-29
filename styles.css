@@ -1,9 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0 auto;
     padding: 0;
     background-image: url(images/green_dust_scratch/green_dust_scratch.png);
     overflow-x: auto;
     background-size: cover;
+    overflow: scroll;
 }
 
 .bkgrnd-color {
@@ -22,6 +27,11 @@ body {
     margin: auto;
     background-color: #ffffff;
   
+}
+
+.carousel {
+    max-width: 750px;
+    margin: auto;
 }
 
 .navbar-brand {
@@ -58,32 +68,32 @@ h2 {
     
 }
 
-
-
 .h3style {
     margin-top: 15px;
     margin-bottom: 15px;
 } 
 
-.h-3 {
+h3 {
     color: #4aaaa5;
     padding-top: 25px;
     padding-bottom: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 3px solid #dddddd;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 
-h4 {
+.pageLink {
     position: absolute;
     top: 65%;
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
     text-align: center;
-    width: 90%;
-    padding: 15px
+    width: 100%;
+    padding: 40px
 }
 
 p {
